@@ -148,10 +148,10 @@ collections:
 #    defaults:
 #      layout: post
 #    output: true
-  projects:
-    output: true
-  teachings:
-    output: true
+#  projects:
+#    output: true
+#  teachings:
+#    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -192,6 +192,12 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _projects/
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _includes/repository/
+  - _pages/teaching.md
+  - _teachings/
 keep_files:
   - CNAME
   - .nojekyll
