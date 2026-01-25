@@ -1,0 +1,36 @@
+<ul>
+{% for pair in include.object %}
+  {% assign key = pair[0] %}
+  {% assign val = pair[1] %}
+
+  {% if val %}
+  <li>
+    <strong>{{ key | capitalize }}:</strong>
+
+    {% if val[0] %}
+      {# Array #}
+      <ul>
+        {% for v in val %}
+          <li>
+            {% if v[0] %}
+              {% include render-object.liquid object=v %}
+            {% else %}
+              {{ v }}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+
+    {% elsif val.first %}
+      {# Hash #}
+      {% include render-object.liquid object=val %}
+
+    {% else %}
+      {# Scalar #}
+      {{ val }}
+    {% endif %}
+
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>

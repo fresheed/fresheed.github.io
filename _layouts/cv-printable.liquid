@@ -1,0 +1,150 @@
+---
+layout: default
+---
+
+<style>
+section {
+  margin-bottom: 0.5rem;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+</style>
+
+{% assign r = site.data.resume %}
+
+<section>
+  <h2>{{ r.basics.name }} </h2>
+  {{ r.basics.summary }} <br/>
+  {{ r.basics.email }}, {{ r.basics.url }} <br/>
+  {{ r.basics.location.city }}, {{ r.basics.location.country }}
+</section>
+
+{% if r.publications and r.publications.size > 0 %}
+<section>
+  <h3>Publications</h3>
+  {% assign sorted_pubs = r.publications | sort: "releaseDate" | reverse %}
+  {% for p in sorted_pubs %}
+    <div> {{ p.releaseDate| date: "%B %Y" }}: <strong>{{ p.name }}</strong>  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if r.education and r.education.size > 0 %}
+<section>
+  <h3>Education</h3>
+  {% assign sorted_edu = r.education | sort: "startDate" | reverse %}
+  {% for e in sorted_edu %}
+    <div>
+      <em>{{ e.startDate| date: "%B %Y"}} – {{ e.endDate | date: "%B %Y" | default: "present" }}</em> : <strong>{{ e.studyType }} in {{ e.area }}</strong>, {{ e.institution }}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if r.work and r.work.size > 0 %}
+<section>
+  <h3>Industry experience</h3>
+  {% assign sorted_work = r.work | sort: "startDate" | reverse %}
+  {% for w in sorted_work %}
+    <div>
+      <em>{{ w.startDate| date: "%B %Y" }} – {{ w.endDate| date: "%B %Y" }}</em> : 
+      <strong>{{ w.name }}</strong> ({{w.location}}) — {{ w.position }}
+
+      {% if w.summary %}
+        <p>{{ w.summary }}</p>
+      {% endif %}
+
+      {% if w.highlights and w.highlights.size > 0 %}
+        <ul>
+          {% for h in w.highlights %}
+            <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if r.volunteer and r.volunteer.size > 0 %}
+<section>
+  <h3>Volunteering</h3>
+  {% for v in r.volunteer %}
+    <div>
+      <em>{{ v.startDate| date: "%B %Y" }} – {{ v.endDate| date: "%B %Y" }}</em> :
+      <strong>{{ v.organization }}</strong> ({{v.location}}) — {{ v.position }}
+
+      {% if v.summary %}
+        <p>{{ v.summary }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if r.awards and r.awards.size > 0 %}
+<section>
+  <h3>Awards</h3>
+  {% for a in r.awards %}
+    <div>
+      <strong>{{ a.title }}</strong> — {{ a.awarder }} ({{ a.date }})
+      {% if a.summary %}
+        <p>{{ a.summary }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if r.certificates and r.certificates.size > 0 %}
+<section>
+  <h3>Certificates</h3>
+  <ul>
+    {% for c in r.certificates %}
+      <li>{{ c.name }} — {{ c.issuer }} ({{ c.date }})</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if r.skills and r.skills.size > 0 %}
+<section>
+  <h3>Skills</h3>
+  {% for s in r.skills %}
+    <strong>{{ s.name }}</strong>: {{ s.keywords | join: ", " }} <br/>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if r.languages and r.languages.size > 0 %}
+<section>
+  <h3>Languages</h3>
+    {% for l in r.languages %}
+      {{ l.language }} — {{ l.fluency }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+</section>
+{% endif %}
+
+{% if r.interests and r.interests.size > 0 %}
+<section>
+  <h3>Interests</h3>
+  {% for i in r.interests %}
+      {{ i.name }}{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if r.references and r.references.size > 0 %}
+<section>
+  <h3>References</h3>
+  {% for ref in r.references %}
+    <p>
+      <strong>{{ ref.name }}</strong><br>
+      {{ ref.reference }}
+    </p>
+  {% endfor %}
+</section>
+{% endif %}

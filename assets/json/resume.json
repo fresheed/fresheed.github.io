@@ -3,27 +3,34 @@
     "name": "Egor Namakonov",
     "email": "e.namakonov@cs.au.dk",
     "url": "https://fresheed.github.io",
-    "summary": "PhD student working on formal verification of concurrent programs"
+    "summary": "PhD student working on formal verification of concurrent programs",
+    "location": {
+      "city": "Aarhus",
+      "country": "Denmark"
+    }
   },
   "education": [
     {
       "institution": "Peter the Great St. Petersburg Polytechnic University",
       "location": "St. Petersburg, Russia",
-      "area": "Bachelor in Software Engineering",
+      "studyType": "Bachelor",
+      "area": "Software Engineering",
       "startDate": "2013-09-01",
       "endDate": "2017-07-01" 
     },
     {
       "institution": "St Petersburg University",
       "location": "St. Petersburg, Russia",
-      "area": "Master in Computer Science",
+      "studyType": "Master",
+      "area": "Computer Science",
       "startDate": "2018-09-01",
       "endDate": "2020-07-01" 
     },
     {
       "institution": "Aarhus University",
       "location": "Aarhus, Denmark",
-      "area": "PhD in Computer Science",
+      "studyType": "PhD",
+      "area": "Computer Science",
       "startDate": "2022-09-01"      
     }
   ],
@@ -33,14 +40,16 @@
       "position": "Intern and DevOps engineer ",
       "startDate": "2015-11-01",
       "endDate": "2018-07-01",
-      "summary": "Continuous Integration, internal Python development, VM administration"
+      "summary": "Continuous Integration, internal Python development, VM administration",
+      "location": "St. Petersburg, Russia"
     },
     {
       "name": "JetBrains Research",
       "position": "Intern and junior researcher",
       "startDate": "2019-07-01",
       "endDate": "2022-08-31",
-      "summary": "Weak memory research, teaching"
+      "summary": "Weak memory research, teaching",
+      "location": "St. Petersburg, Russia"
     }
   ],
   "teaching": [
@@ -89,17 +98,17 @@
   "publications": [
     {
       "name": "Making weak memory models fair",
-      "releaseDate": "2021",
+      "releaseDate": "2021-10-17",
       "authors": "Lahav, Ori and Namakonov, Egor and Oberhauser, Jonas and Podkopaev, Anton and Vafeiadis, Viktor"
     },
     {
       "name": "Compilation of OCaml memory model into Power",
-      "releaseDate": "2019",
+      "releaseDate": "2019-12-12",
       "authors": "Egor Namakonov and Anton Podkopaev"
     },
     {
       "name": "Lawyer: Modular Obligations-Based Liveness Reasoning in Higher-Order Impredicative Concurrent Separation Logic",
-      "releaseDate": "2026",
+      "releaseDate": "2026-10-03",
       "authors": "Egor Namakonov and Justus Fasse and Bart Jacobs and Lars Birkedal and Amin Timany"
     }
   ],
