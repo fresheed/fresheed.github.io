@@ -3,7 +3,7 @@
     "name": "Egor Namakonov",
     "email": "e.namakonov@cs.au.dk",
     "url": "https://fresheed.github.io",
-    "summary": "PhD student working on formal verification of concurrent programs",
+    "about": "PhD student working on formal verification of concurrent programs",
     "location": {
       "city": "Aarhus",
       "country": "Denmark"
@@ -211,22 +211,22 @@
     {
       "summary": "Attended OPLSS Summer school",
       "url": "https://www.cs.uoregon.edu/research/summerschool/summer24/",
-      "date": "2024-06"
+      "date": "2024-06-12"
     },
     {
       "summary": "Artifact Evaluation Committee member at PLDI'21",
       "url": "https://pldi21.sigplan.org/committee/pldi-2021-PLDI-Research-Artifacts-artifact-evaluation-committee",
-      "date": "2021"
+      "date": "2021-03-01"
     },
     {
       "summary": "Internship at MPI-SWS with Viktor Vafeiadis",
       "url": "https://www.mpi-sws.org/research-areas/programming-languages-and-verification/",
-      "date": "2020-(03-06)"
+      "date": "2020-03-01"
     },
     {
       "summary": "Translated a chapter of Richard Hamming's 'The Art of Doing Science and Engineering'",
       "url": "https://habr.com/ru/articles/346562/",
-      "date": "2018"
+      "date": "2018-02-01"
     }
   ]
 }
