@@ -99,17 +99,17 @@
     {
       "name": "Making weak memory models fair",
       "releaseDate": "2021-10-17",
-      "authors": "Lahav, Ori and Namakonov, Egor and Oberhauser, Jonas and Podkopaev, Anton and Vafeiadis, Viktor"
+      "authors": "Ori Lahav, Egor Namakonov, Jonas Oberhauser, Anton Podkopaev, Viktor Vafeiadis"
     },
     {
       "name": "Compilation of OCaml memory model into Power",
       "releaseDate": "2019-12-12",
-      "authors": "Egor Namakonov and Anton Podkopaev"
+      "authors": "Egor Namakonov, Anton Podkopaev"
     },
     {
       "name": "Lawyer: Modular Obligations-Based Liveness Reasoning in Higher-Order Impredicative Concurrent Separation Logic",
       "releaseDate": "2026-10-03",
-      "authors": "Egor Namakonov and Justus Fasse and Bart Jacobs and Lars Birkedal and Amin Timany"
+      "authors": "Egor Namakonov, Justus Fasse, Bart Jacobs, Lars Birkedal, Amin Timany"
     }
   ],
   "skills": [
