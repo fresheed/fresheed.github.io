@@ -31,3 +31,5 @@ At the moment, I work on program logics for verifying liveness of blocking and n
 Before that, I worked on weak memory models: verifying compilation between them and studying their liveness properties.
 
 [Besides research](/cv), I worked as a software engineer in several (non)commercial projects and TAed a number of computer science classes.
+
+If you're up for a little challenge, here's [the best way](https://www.reddit.com/r/russian/comments/1i08nfn/comment/m6vycn1/) to pronounce my name.
