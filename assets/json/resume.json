@@ -194,7 +194,7 @@
   "projects": [
     {
       "name": "Intermediate Memory Model",
-      "summary": "A declarative memory model bridging the gap between the modles of languages and processors",
+      "summary": "A declarative memory model bridging the gap between the models of languages and processors",
       "startDate": "2019-03-01",
       "endDate": "2022-08-31",
       "url": "https://github.com/weakmemory/imm"
