@@ -110,7 +110,13 @@
       "name": "Lawyer: Modular Obligations-Based Liveness Reasoning in Higher-Order Impredicative Concurrent Separation Logic",
       "releaseDate": "2026-10-03",
       "authors": "Egor Namakonov, Justus Fasse, Bart Jacobs, Lars Birkedal, Amin Timany"
+    },
+    {
+      "name": "Verifying wait-freedom of higher-order programs [preprint]",
+      "releaseDate": "2026-02-13",
+      "authors": "Egor Namakonov, Lars Birkedal, Amin Timany"
     }
+
   ],
   "skills": [
     {
@@ -118,10 +124,9 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "OCaml",
-        "Python",
-        "Haskell",
+        "Python",        
         "Rust",
-        "also: C, Java, Kotlin, Elisp, Groovy..."
+        "also: Haskell, C, Java, Kotlin, Elisp, Groovy..."
       ]
     },
     {
