@@ -23,17 +23,23 @@ keywords = {Formal semantics, concurrency, verification, weak memory models},
 note = {Distinguished paper award}
 }
 
-@article{lawyer,
-author = {Egor Namakonov and Justus Fasse and Bart Jacobs and Lars Birkedal and Amin Timany},
+@article{10.1145/3798240,
+author = {Namakonov, Egor and Fasse, Justus and Jacobs, Bart and Birkedal, Lars and Timany, Amin},
 title = {Lawyer: Modular Obligations-Based Liveness Reasoning in Higher-Order Impredicative Concurrent Separation Logic},
 year = {2026},
-issue_date = {October 2026},
+issue_date = {April 2026},
 publisher = {Association for Computing Machinery},
-number = {OOPSLA},
-month = oct,
-numpages = {25},
-keywords = {Program logic, concurrency, verification, liveness, termination, Rocq},
-note = {Accepted for publication at OOPSLA'26},
+address = {New York, NY, USA},
+volume = {10},
+number = {OOPSLA1},
+url = {https://doi.org/10.1145/3798240},
+doi = {10.1145/3798240},
+abstract = {Higher-order concurrent separation logics, such as Iris, have been   tremendously successful in verifying safety properties of concurrent programs. However,  state-of-the-art attempts to verify liveness properties in such logics have so far either   lacked modularity (the ability to compose specifications of   independent modules), or they have been far too complex to mechanize in a proof assistant.  In this work, we introduce Lawyer --- a mechanized program logic for modular verification of (fair)   termination of concurrent programs.   Lawyer draws inspiration from state-of-the-art approaches that use obligations for specifying and proving termination.   However, unlike these approaches, which incorporate obligations by instrumenting the source code with erasable auxiliary code and state, Lawyer avoids such instrumentations.  Instead, Lawyer incorporates obligations into the logic by embedding them into a purely logical labeled transition system that the program is shown to refine --- this makes Lawyer far more amenable to mechanization.   We demonstrate the expressivity of Lawyer by verifying termination of a range of examples,  including modular verification of a client program whose termination relies on   correctness of a fair lock library, and (separately) proving that a ticket lock   implementation implements that library's interface. To the best of our knowledge, Lawyer is the   first mechanized program logic that supports modular higher-order impredicative   liveness specifications of program modules. All the results that appear in the   paper have been mechanized in the Rocq proof assistant on top of the Iris   separation logic framework.},
+journal = {Proc. ACM Program. Lang.},
+month = apr,
+articleno = {132},
+numpages = {27},
+keywords = {concurrency, formal verification, higher-order logic, impredicativity, liveness, refinement, separation logic, termination},
 pdf = {lawyer.pdf}
 }
 

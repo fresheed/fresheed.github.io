@@ -214,6 +214,21 @@
   ],
   "misc": [
     {
+      "summary": "Presented the wait-freedom paper at Iris Workshop'26",
+      "url": "https://iris-project.org/workshop-2026",
+      "date": "2026-06-08"
+    },
+    {
+      "summary": "Research visit to Bart Jacobs' group in KU Leuven",
+      "url": "https://distrinet.cs.kuleuven.be/people/BartJacobs",
+      "date": "2026-05-01"
+    },
+    {
+      "summary": "Presented the Lawyer paper at Iris Workshop'25",
+      "url": "https://iris-project.org/workshop-2025",
+      "date": "2025-06-02"
+    },
+    {
       "summary": "Attended OPLSS Summer school",
       "url": "https://www.cs.uoregon.edu/research/summerschool/summer24/",
       "date": "2024-06-12"
