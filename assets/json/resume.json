@@ -112,7 +112,7 @@
       "authors": "Egor Namakonov, Justus Fasse, Bart Jacobs, Lars Birkedal, Amin Timany"
     },
     {
-      "name": "Verifying wait-freedom of higher-order programs",
+      "name": "Verifying wait-freedom for concurrent higher-order programs",
       "releaseDate": "2026-06-29",
       "authors": "Egor Namakonov, Lars Birkedal, Amin Timany"
     }
