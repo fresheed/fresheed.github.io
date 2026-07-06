@@ -99,7 +99,8 @@
     {
       "name": "Making weak memory models fair",
       "releaseDate": "2021-10-17",
-      "authors": "Ori Lahav, Egor Namakonov, Jonas Oberhauser, Anton Podkopaev, Viktor Vafeiadis"
+      "authors": "Ori Lahav, Egor Namakonov, Jonas Oberhauser, Anton Podkopaev, Viktor Vafeiadis",
+      "note": "distinguished paper award"
     },
     {
       "name": "Compilation of OCaml memory model into Power",
@@ -114,7 +115,8 @@
     {
       "name": "Verifying wait-freedom for concurrent higher-order programs",
       "releaseDate": "2026-06-29",
-      "authors": "Egor Namakonov, Lars Birkedal, Amin Timany"
+      "authors": "Egor Namakonov, Lars Birkedal, Amin Timany",
+      "note": "distinguished artifact award"
     }
 
   ],

@@ -38,7 +38,12 @@ section h2 {
   <h3>Publications</h3>
   {% assign sorted_pubs = r.publications | sort: "releaseDate" | reverse %}
   {% for p in sorted_pubs %}
-    <div> <em>{{ p.releaseDate| date: "%B %Y" }}</em>: <strong>{{ p.name }}</strong>  </div>
+    <div>
+     <em>{{ p.releaseDate| date: "%B %Y" }}</em>: <strong>{{ p.name }}</strong> 
+     {% if p.note %}
+      [{{p.note}}]
+     {% endif %}    
+     </div>
   {% endfor %}
 </section>
 {% endif %}
