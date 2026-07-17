@@ -125,9 +125,9 @@
       "name": "Programming languages",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
+        "Rust (+ tokio)",
         "OCaml",
         "Python",        
-        "Rust",
         "also: Haskell, C, Java, Kotlin, Elisp, Groovy..."
       ]
     },
