@@ -10,6 +10,66 @@
       "country": "Denmark"
     }
   },
+  "interests": [
+    {
+      "name": "Concurrency",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Systems programming",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Formal verification",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Weak memory",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Liveness",
+      "icon": "fa-solid fa-tag"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Rust (+ tokio)",
+        "OCaml",
+        "Python",        
+        "also: Haskell, C, Java, Kotlin, Elisp, Groovy..."
+      ]
+    },
+    {
+      "name": "Formal verification tools",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Rocq proof assistant",
+        "Iris separation logic"
+      ]
+    },
+    {
+      "name": "Automation tools",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Vagrant",
+        "Docker",
+        "Travis CI",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Theory",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Formal logic",
+        "Dependent types"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Peter the Great St. Petersburg Polytechnic University",
@@ -53,6 +113,47 @@
       "location": "St. Petersburg, Russia"
     }
   ],
+  "volunteer": [
+    {
+      "organization": "Helping to Leave",
+      "location": "Remote",
+      "position": "Software engineer",
+      "url": "https://helpingtoleave.org/en",
+      "startDate": "2022-06-01",
+      "endDate": "2022-11-01",
+      "summary": "DSL-based chatbots development, JavaScript programming"
+    },
+    {
+      "organization": "OVD-Info",
+      "location": "Remote",
+      "position": "Software engineer",
+      "url": "https://ovd.info/en",
+      "startDate": "2022-06-01",
+      "endDate": "2024-05-01",
+      "summary": "Python chatbots development, CI"
+    }
+  ],
+  "projects": [
+    {
+      "name": "tubu",
+      "summary": "Personal project for practicing async Rust w/ tokio and some aspects of systems programming",
+      "startDate": "2026-07-10",
+      "url": "https://github.com/fresheed/tubu"
+    },
+    {
+      "name": "Intermediate Memory Model",
+      "summary": "A declarative memory model bridging the gap between the models of languages and processors",
+      "startDate": "2019-03-01",
+      "endDate": "2022-08-31",
+      "url": "https://github.com/weakmemory/imm"
+    },
+    {
+      "name": "Trillium",
+      "summary": "Concurrent separation logic for proving refinement between programs and abstract models",
+      "startDate": "2022-09-01",
+      "url": "https://github.com/logsem/trillium"
+    }
+  ],
   "teaching": [
     {
       "name": "Computability and Logic",      
@@ -74,26 +175,6 @@
       "years": "2021, 2022",
       "summary": "Exercise classes, grading, lectures",
       "url": "https://compscicenter.ru/courses/programming-language-semantics/2022-spring/"
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Helping to Leave",
-      "location": "Remote",
-      "position": "Software engineer",
-      "url": "https://helpingtoleave.org/en",
-      "startDate": "2022-06-01",
-      "endDate": "2022-11-01",
-      "summary": "DSL-based chatbots development, JavaScript programming"
-    },
-    {
-      "organization": "OVD-Info",
-      "location": "Remote",
-      "position": "Software engineer",
-      "url": "https://ovd.info/en",
-      "startDate": "2022-06-01",
-      "endDate": "2024-05-01",
-      "summary": "Python chatbots development, CI"
     }
   ],
   "publications": [
@@ -121,44 +202,6 @@
     }
 
   ],
-  "skills": [
-    {
-      "name": "Programming languages",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Rust (+ tokio)",
-        "OCaml",
-        "Python",        
-        "also: Haskell, C, Java, Kotlin, Elisp, Groovy..."
-      ]
-    },
-    {
-      "name": "Formal verification tools",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Rocq proof assistant",
-        "Iris separation logic"
-      ]
-    },
-    {
-      "name": "Automation tools",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Vagrant",
-        "Docker",
-        "Travis CI",
-        "Jenkins"
-      ]
-    },
-    {
-      "name": "Theory",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Formal logic",
-        "Dependent types"
-      ]
-    }
-  ],
   "languages": [
     {
       "language": "Russian",
@@ -179,45 +222,6 @@
       "language": "German",
       "fluency": "Beginner",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Formal verification",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Concurrency",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Weak memory",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Liveness",
-      "icon": "fa-solid fa-tag"
-    }
-  ],
-  "projects": [
-    {
-      "name": "tubu",
-      "summary": "Personal project for practicing async Rust w/ tokio and some aspects of systems programming",
-      "startDate": "2026-07-10",
-      "url": "https://github.com/fresheed/tubu"
-    },
-    {
-      "name": "Intermediate Memory Model",
-      "summary": "A declarative memory model bridging the gap between the models of languages and processors",
-      "startDate": "2019-03-01",
-      "endDate": "2022-08-31",
-      "url": "https://github.com/weakmemory/imm"
-    },
-    {
-      "name": "Trillium",
-      "summary": "Concurrent separation logic for proving refinement between programs and abstract models",
-      "startDate": "2022-09-01",
-      "url": "https://github.com/logsem/trillium"
     }
   ],
   "misc": [
