@@ -2,7 +2,8 @@
   "basics": {
     "name": "Egor Namakonov",
     "email": "e.namakonov@cs.au.dk",
-    "url": "https://fresheed.github.io",
+    "website": "https://fresheed.github.io",
+    "linkedin": "linkedin.com/in/fresheed/",
     "about": "PhD student working on formal verification of concurrent programs",
     "location": {
       "city": "Aarhus",
@@ -215,6 +216,11 @@
     }
   ],
   "misc": [
+    {
+      "summary": "Received a distinguished artifact award for the wait-freedom paper at ECOOP'26",
+      "url": "https://2026.ecoop.org/track/ecoop-2026-technical-papers#",
+      "date": "2026-07-01"
+    },
     {
       "summary": "Presented the wait-freedom paper at Iris Workshop'26",
       "url": "https://iris-project.org/workshop-2026",
