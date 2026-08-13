@@ -135,6 +135,12 @@
   ],
   "projects": [
     {
+      "name": "aimdb [contributor]",
+      "summary": "aimdb establishes format for data transfer over the network (from a microcontroller via an edge device to a browser) as Rust types used across the network devices running different asynchronous engines. My contribution has been reworking the implementation of synchronous interface used by async-oblivious code. In the process, I have identified and fixed multiple issues (besides the original one) in existing codebase, receiving 'Thanks a lot for your detailed analysis!!!' from the maintainer.",
+      "startDate": "2026-07-10",
+      "url": "https://github.com/aimdb-dev/aimdb/"
+    },    
+    {
       "name": "tubu",
       "summary": "Personal project for practicing async Rust w/ tokio and some aspects of systems programming",
       "startDate": "2026-07-10",
